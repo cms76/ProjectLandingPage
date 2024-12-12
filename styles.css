@@ -17,11 +17,23 @@ a {
     font-size: 18px;
 }
 
+button {
+    padding: 6px 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+
 .header {
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -29,6 +41,36 @@ a {
     align-items: center;
     justify-content: space-around;
 }
+
+.hero-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content:space-around;
+    padding: 100px 200px;
+    gap: 100px;
+}
+
+.left-hero-section {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.right-hero-section {
+    background-color: grey;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    flex: 1;    
+}
+
+
 
 .logo {
     font-size: 24px;
@@ -40,4 +82,71 @@ a {
     flex-direction: row;
     gap: 24px;
     margin-right: 16px;
+}
+
+.benefits-section {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px 200px;
+    gap: 24px;
+}
+
+.benefits-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 26px;
+}
+
+.benefit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    flex: 1;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.rounded-frame {
+    border-width: 3px;
+    border-radius: 16px;
+    border-color: #3882F6;
+    border-style: solid;
+    height: 160px;
+    width: 160px;
+}
+
+.inspiration-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content:space-between;
+    padding: 40px 200px;
+    gap: 0px;
+}
+
+.qoute {
+    text-align: justify;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+
+.qoute-author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 0px;
 }
